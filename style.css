@@ -35,3 +35,17 @@ li a.active {
   color: white;
   background-color: grey;
 }
+
+.center {
+  text-align: center;
+}
+
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
