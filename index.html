@@ -12,17 +12,32 @@
 
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+
+    <style>
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
   <body>
     <!-- title with image -->
     <div class="container">
-        <img src="https://cdn.glitch.com/0d98bcc4-796f-471b-8bc6-c77ce9ac9fc6%2Fcovid.jpg?v=1594674692729" alt="Snow" style="width:100%;">
-      
-      <div class="centered"><h1>TITLE
-        
-        </h1></div>
-      
+      <img
+        src="https://cdn.glitch.com/0d98bcc4-796f-471b-8bc6-c77ce9ac9fc6%2Fcovid.jpg?v=1594674692729"
+        alt="Snow"
+        style="width:100%;"
+      />
 
+      <div class="centered"><h1>TITLE</h1></div>
     </div>
 
     <!-- end of title with image -->
@@ -45,8 +60,7 @@
     <p>
       INFO INFO INFO
     </p>
-    
-    
+
     <!-- extra 
 
 .centered {
