@@ -63,19 +63,12 @@ li a.active {
   }
 
 .mySlides {
-  width: 50%;
-  height: 300px;
+  width: 70%;
+  height: 400px;
   margin: auto;
   object-fit: cover;
   padding: 10px;
 }
-
-.grid-container {
-  display: grid;
-  border: 1px solid black;
-}
-
-
 
 
 /* test for news */
@@ -95,7 +88,7 @@ li a.active {
 .icon {
   color: white;
   border-radius:4px;
-  text-align:left;
+  text-align:center;
   text-decoration:none;
   font-family:fontawesome;
   position: relative;
@@ -113,8 +106,6 @@ li a.active {
 
 .icon:hover {
   background: white;
-  width: 30px;
-  height: 30px;
 }
 
 /* pop-up text */
@@ -151,12 +142,14 @@ li a.active {
   position:absolute;
   bottom:-5px;
   left:40px;
+  position: left;
 }
 
 /* text pops up when icon is in hover state */
 
 .icon:hover span {
   bottom:50px;
+  position: center;
   visibility:visible;
   opacity:1;
 }
@@ -170,16 +163,16 @@ content:'\f09a';
 content:'\f099';
 }
 .icon:nth-of-type(3):before {
-content:'\f0d5';
+content:'\f08c';
 }
 .icon:nth-of-type(4):before {
 content:'\f16d';
 }
 .icon:nth-of-type(5):before {
-content:'\f17d';
+content:'\f16a';
 }
 .icon:nth-of-type(6):before {
-content:'\f1cb';
+content:'\f2ab';
 }
 
 
