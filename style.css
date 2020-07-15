@@ -112,7 +112,7 @@ li a.active {
 }
 
 .icon:hover {
-  background: gold;
+  background: white;
   width: 30px;
   height: 30px;
 }
