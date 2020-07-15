@@ -67,4 +67,5 @@ li a.active {
   height: 300px;
   margin: auto;
   object-fit: cover;
+  padding: 5px;
 }
