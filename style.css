@@ -94,7 +94,6 @@ li a.active {
 
 .icon {
   color:#fff;
-  background: #DB6E82;
   border-radius:4px;
   text-align:center;
   text-decoration:none;
@@ -113,7 +112,7 @@ li a.active {
 }
 
 .icon:hover {
-  background: #ef92a3;
+  background: blue;
 }
 
 /* pop-up text */
@@ -162,7 +161,7 @@ li a.active {
 
 /* font awesome icons */
 
-a.icon:nth-of-type(1):before {
+.icon:nth-of-type(1):before {
 content:'\f09a';
 }
 .icon:nth-of-type(2):before {
@@ -172,7 +171,7 @@ content:'\f099';
 content:'\f0d5';
 }
 .icon:nth-of-type(4):before {
-content:'\f113';
+content:'\f16d';
 }
 .icon:nth-of-type(5):before {
 content:'\f17d';
