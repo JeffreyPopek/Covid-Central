@@ -229,6 +229,7 @@ span {
   justify-content: space-evenly;
   height: 200px;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .sticky {
@@ -239,8 +240,8 @@ span {
 
 
 
-@media (max-width: 600px) {
-  .symp-cards{width:50%}
+@media (max-width: 538px) {
+  .card .symp-cards{width:100%}
 }
 
 
