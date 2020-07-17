@@ -6,6 +6,7 @@ body {
   background-color: grey;
 }
 
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -238,6 +239,9 @@ span {
 
 
 
-@media only screen and (max-width: 600px) {
-  .symp-cards{col}
+@media (max-width: 600px) {
+  .symp-cards{width:50%}
 }
+
+
+
