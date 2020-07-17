@@ -220,3 +220,10 @@ content:'\f2ab';
 .box-item .box-post h1..post-title {
    font-size:10pt;
 }
+
+.symp-cards {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  text-align: center;
+}
