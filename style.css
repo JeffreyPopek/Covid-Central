@@ -223,7 +223,7 @@ content:'\f2ab';
 
 .symp-cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 200px;
   text-align: center;
 }
