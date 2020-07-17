@@ -235,3 +235,9 @@ span {
   position: sticky;
   top: 0;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .symp-cards{col}
+}
