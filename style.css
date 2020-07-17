@@ -7,6 +7,7 @@ body {
 }
 
 ul {
+
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -226,6 +227,13 @@ content:'\f2ab';
   justify-content: space-around;
   height: 200px;
   text-align: center;
+}
+
+.sticky {
+ 
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 
