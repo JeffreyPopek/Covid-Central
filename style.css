@@ -285,7 +285,11 @@ span {
   border: none;
 }
 
-.navtop {
+.spread-img {
+  object-fit: cover;
+}
+
+#navtop {
     overflow: hidden;
     position: fixed;
     top: 0;
