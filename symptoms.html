@@ -35,23 +35,35 @@
     <!-- end of title with image -->
 
     <!-- nav bar -->
-    <ul>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="news.html">News</a></li>
-      <li>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Safety
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Symptoms</a>
-            <a class="dropdown-item" href="#">How to protect yourself</a>
-          </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="news.html">News</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Safety
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="symptoms.html">Symptoms</a>
+          <a class="dropdown-item" href="#">How to protect yourself</a>
         </div>
       </li>
-      <li><a href="#about">Things</a></li>
+      
     </ul>
-    <br>
+    
+  </div>
+</nav>
+    <!-- nav -->
     
     <h4 class="text-center mt-5 bg-light">
       Symptoms may appear 2-14 days after exposure to the virus. People with these symptoms may have COVID-19:
