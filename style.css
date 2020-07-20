@@ -91,13 +91,13 @@ li a.active {
 
 .icon {
   color: white;
-  border-radius: 4px;
+  border-radius: 20px;
   text-align: center;
   text-decoration: none;
   font-family: fontawesome;
   position: relative;
   display: inline-block;
-  width: 30px;
+  width: 40px;
   height: 30px;
   padding-top: 12px;
   margin: 0 2px;
@@ -282,5 +282,13 @@ span {
 .spread-card {
   list-style-type: disc;
   list-style-position: inside;
+  border: none;
+}
+
+.navtop {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
