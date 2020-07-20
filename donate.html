@@ -78,7 +78,7 @@ we can just have a form but not have it do anything, just input numbers-->
       COVID-19 Solidarity Response Fund for WHO
     </h2>
     
-    <h3 class="textleft">
+    <h3 class="textbox">
       The world has never faced a crisis like COVID-19. The pandemic is impacting communities everywhere. It’s never been more urgent to support the global response, led by the World Health Organization (WHO).  
 
 Donations support WHO’s work, including with partners, to track and understand the spread of the virus; to ensure patients get the care they need and frontline workers get essential supplies and information; and to accelerate research and development of a vaccine and treatments for all who need them.
@@ -93,14 +93,56 @@ Donors from Canada, China, Japan, or certain European countries, and the UK, may
     
     
     <!-- donate form-->
-<fieldset>
-    <legend>Personalia:</legend>
+<form>
+  <fieldset class="at-fieldset ContributionInformation" style="border: none;">
+    <legend class="at-legend">Amount</legend>
+    <div class="at-fields">
+      <div class="at-row at-row-full ">
+        <input id="ProcessingCurrency_Value" type="hidden" name="ProcessingCurrency.Value" value="USD">
+      </div>
+      <div class="at-row at-row-full ">
+        <div class="form-item form-type-radios form-item-selectamount">
+          <div class="at-row SelectAmount OtherAmount NonRecurringButtons">
+        <div class="at-radio">
+          <div class="at-radios clearfix">
+            <label class="label-amount long" title="US ($25)">
+              <input name="SelectAmount" type="radio" value="25.00">US $25<a></a>
+            </label>
+            <label class="label-amount long" title="US ($50)">
+              <input name="SelectAmount" type="radio" value="50.00">US $50<a></a>
+            </label>
+            <label class="label-amount long" title="US ($100)">
+              <input name="SelectAmount" type="radio" value="100.00">US $100<a></a>
+            </label>
+            <label class="label-amount long" title="US ($500)">
+              <input name="SelectAmount" type="radio" value="500.00">US $500<a></a>
+            </label>
+            <label class="label-amount incrediblyLong" title="US ($1,000)">
+              <input name="SelectAmount" type="radio" value="1000.00">US $1000<a></a>
+            </label>
+            <label class="label-amount incrediblyLong" title="US ($2,500)">
+              <input name="SelectAmount" type="radio" value="2500.00">US $2500<a></a>
+            </label>
+            <label class="label-amount label-otheramount" title="Other">
+              <input name="SelectAmount" type="radio" class="radio-other" value="other">
+        Other
+              <input type="number" tabindex="-1" autocomplete="transaction-amount" class="edit-otheramount" name="OtherAmount" title="Other Amount" placeholder="0.00">
+            <span class="label-otheramount-prefix">$</span>
+            </label>    
+          </div>
+        </div>
+</div>
+</div>
+      </div>
+    </div>
+</fieldset>
+  
   <input type="checkbox" id="monthly" name="monthly" value="month">
   <label for="monthly"> Make this contribution: monthly</label><br>
   <input type="checkbox" id="memory" name="memory" value="honor">
   <label for="memory"> I'd like to make this contribution in honor or in memory of someone</label><br>
   <input type="submit" value="Submit">
-    </fieldset>
+    </form>
     
     <!-- donate form end -->
     
