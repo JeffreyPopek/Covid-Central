@@ -6,6 +6,9 @@ body {
   background-color: grey;
 }
 
+.title-img {
+  object-fit: cover;
+}
 
 ul {
   list-style-type: none;
@@ -254,6 +257,32 @@ span {
   top: 0;
 }
 
+.textcenter {
+  text-align: center;
+}
 
+.textleft {
+  text-align: left;
+}
+
+.textright {
+  text-align: right;
+}
+
+
+.textbox {
+  display: flex;
+ 
+  justify-content: space-around;
+  padding-bottom: 10px;
+  padding-top:10px
+  
+}
+
+
+.title-font {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+}
 
 
