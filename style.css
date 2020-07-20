@@ -261,12 +261,12 @@ span {
   text-align: center;
 }
 
-.textleft {
-  text-align: left;
+.left {
+  float: left;
 }
 
-.textright {
-  text-align: right;
+.right {
+  float: right;
 }
 
 
@@ -275,5 +275,11 @@ span {
   padding: 10px;
   border: 5px solid gray;
   margin: 0;
+}
+
+/* trying sth */
+
+.spread-card {
+  list-style-type: disc;
 }
 
