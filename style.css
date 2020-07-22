@@ -44,7 +44,7 @@ li a.active {
   text-align: center;
 }
 
-.container {
+.container-fluid {
   position: relative;
   text-align: center;
   color: white;
