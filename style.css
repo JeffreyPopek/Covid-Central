@@ -242,17 +242,18 @@ span {
 
 .symp-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 200px;
   text-align: center;
 }
 
 .wrapper {
+  display: flex;
   flex-wrap: wrap;
 }
 
 
-.sticky {
+.sticky {  
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -320,7 +321,8 @@ span {
 
 
 
-.centerdiv {        
+.centerdiv {  
+  display: flex;
   justify-content: center;
 }
 
