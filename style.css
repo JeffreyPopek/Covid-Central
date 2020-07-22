@@ -315,3 +315,11 @@ span {
 .sticky + .content {
   padding-top: 102px;
 }
+
+
+
+
+.centerdiv {        
+  margin-left:auto;
+  margin-right:auto;
+}
