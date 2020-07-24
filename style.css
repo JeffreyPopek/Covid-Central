@@ -79,13 +79,6 @@ li a.active {
   height: 100%;
 }
 
-.mySlides {
-  width: 70%;
-  height: 400px;
-  margin: auto;
-  object-fit: cover;
-  padding: 10px;
-}
 
 /* test for news */
 
