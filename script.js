@@ -37,3 +37,6 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+
+// external js: flickity.pkgd.js
